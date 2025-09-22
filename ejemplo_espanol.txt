@@ -1,0 +1,20 @@
+# Ejemplo en Python Español
+definir saludar(nombre):
+    decir(f"¡Hola, {nombre}!")
+    retornar "Saludado"
+
+para i en rango(5):
+    si i % 2 == 0:
+        decir(f"Número par: {i}")
+    sino:
+        decir(f"Número impar: {i}")
+
+nombre = entrada("¿Cómo te llamas? ")
+resultado = saludar(nombre)
+
+si longitud(nombre) > 5:
+    decir("Tienes un nombre largo")
+sino_si longitud(nombre) == 0:
+    decir("No ingresaste un nombre")
+sino:
+    decir("Tienes un nombre corto")
