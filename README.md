@@ -1,3 +1,3 @@
 # Pitón epsañol
 
-- španěslký python (překladač)
+- španělský python (překladač)
